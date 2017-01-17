@@ -214,13 +214,14 @@ const slenderCSlenderG = {
   source2: 'Carraroe/giall.ogg'
 }
 
-const broadFandV = {
+
+const broadFandW = {
   sound1: '/fˠ/',
-  word1: 'fóta',
-  source1: 'Carraroe/fóta.ogg',
-  sound2: '/v/',
-  word2: 'vóta',
-  source2: 'Carraroe/vóta.ogg'
+  word1: '(faoi)',
+  source1: 'Carraroe/faoi.ogg',
+  sound2: '/w/',
+  word2: '(bhuí)',
+  source2: 'Carraroe/bhuí.ogg'
 }
 
 const slenderFandV = {
@@ -228,7 +229,7 @@ const slenderFandV = {
   word1:  "(figh)",
   source1: "Carraroe/figh.ogg",
   sound2: "/vʲ/",
-  word2: 'bhí',
+  word2: '(bhí)',
   source2: 'Carraroe/bhí.ogg'
 }
 
@@ -253,4 +254,4 @@ const slenderChSlenderGh = {
 const carraroeSounds=[broadPSlenderP, broadBSlenderB, broadTSlenderT, broadDSlenderD,
 broadCSlenderC,broadGSlenderG,broadFSlenderF,broadBhSlenderBh,broadSSlenderS,broadChSlenderCh,
 broadGhSlenderGh,broadMSlenderM,broadNSlenderN,broadNgSlenderNg,broadRSlenderR,broadLSlenderL,broadPBroadB,
-slenderPSlenderB,broadTBroadD,slenderTSlenderD,broadCBroadG,slenderCSlenderG,slenderFandV,broadChBroadGh,slenderChSlenderGh]
+slenderPSlenderB,broadTBroadD,slenderTSlenderD,broadCBroadG,slenderCSlenderG,broadFandW,slenderFandV,broadChBroadGh,slenderChSlenderGh]
