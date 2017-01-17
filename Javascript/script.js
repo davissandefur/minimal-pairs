@@ -33,7 +33,7 @@ function test(){
 function check(word){
   const div = document.getElementById('correct');
   div.classList.remove('incorrect', 'correct');
-  const solution = document.getElementById('solution').value;
+  const solution = document.getElementById('solution').value.toLowerCase();
   if(solution===word){
     div.innerHTML = "Congratulations, you are correct! Hit test to get a different word"
     div.classList.add('correct');
