@@ -1,7 +1,7 @@
 const table = document.getElementById("table");
 
 function addTableRows(element){
-  const  row = table.insertRow(-1);
+  const row = table.insertRow(-1);
   const cell1 = row.insertCell(0);
   const cell2 = row.insertCell(1);
   cell1.innerHTML = `${element.sound1} (${element.word1}) <audio id='${element.word1.split(' ').join('')}'
