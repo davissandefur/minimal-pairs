@@ -13,14 +13,15 @@ function addTableRows(element){
 function test(){
   document.getElementById('correct').innerHTML= '';
   const newEl = document.createElement('div');
-  const random1 = rand(carraroeSounds.length);
+  const random1 = rand(carraroeSounds.length-1);
   const random2 = rand(2);
   let source = "source"+random2;
   let word = "word"+random2;
   source = carraroeSounds[random1][source];
   word = carraroeSounds[random1][word];
-  console.log(word);
-
+  if(word.charAt(0)==='('){
+    word=word.substring(1,word.length-1);
+  }
   const div = document.getElementById('answer');
   const HTML1 = `<audio id='${word.split(' ').join('')}' src=${source}></audio>
     <button onclick=document.getElementById('${word.split(' ').join('')}').play()>&#9658;</button>`;
@@ -30,8 +31,8 @@ function test(){
 }
 
 function check(word){
-  console.log(word);
   const div = document.getElementById('correct');
+  div.classList.remove('incorrect', 'correct');
   const solution = document.getElementById('solution').value;
   if(solution===word){
     div.innerHTML = "Congratulations, you are correct! Hit test to get a different word"
