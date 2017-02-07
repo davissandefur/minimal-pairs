@@ -1,3 +1,4 @@
+(function(){
 const doubleLSingleL = {
   sound1: '/l̠ʲ/',
   word1: 'buille',
@@ -255,3 +256,9 @@ const carraroeSounds=[broadPSlenderP, broadBSlenderB, broadTSlenderT, broadDSlen
 broadCSlenderC,broadGSlenderG,broadFSlenderF,broadBhSlenderBh,broadSSlenderS,broadChSlenderCh,
 broadGhSlenderGh,broadMSlenderM,broadNSlenderN,broadNgSlenderNg,broadRSlenderR,broadLSlenderL,broadPBroadB,
 slenderPSlenderB,broadTBroadD,slenderTSlenderD,broadCBroadG,slenderCSlenderG,broadFandW,slenderFandV,broadChBroadGh,slenderChSlenderGh]
+
+carraroeSounds.forEach(addTableRows);
+function practice(){
+  test(carraroeSounds)
+}
+}());
