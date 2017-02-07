@@ -1,17 +1,18 @@
 <!DOCTYPE HTML>
 
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Minimal Pair Website</title>
-  <link rel="stylesheet" href="CSS/styles.css">
-</head>
-<body>
-<h1> Welcome to the Minimal Pair website. Please choose a language and/or dialect to begin</h1>
-<p>Click the word to hear the audio. If no minimal pair exists, a near-minimal
-pair will be given, in extra parentheses.</p>
 
-<select id="minimal">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimal Pair Website</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <h1> Welcome to the Minimal Pair website. Please choose a language and/or dialect to begin</h1>
+    <p>Click the word to hear the audio. If no minimal pair exists, a near-minimal pair will be given, in extra parentheses.</p>
+
+    <select id="minimal">
   <option selected='selected' value=''>Select a language/dialect</option>
   <optgroup label="Irish">
     <option value='carraroe'>Connemara</option>
@@ -20,17 +21,17 @@ pair will be given, in extra parentheses.</p>
 
 
 
-<table id="table">
-  <tr class='hidden'>
-    <th>Sound 1 (IPA) and example</th>
-    <th>Sound 2 (IPA) and example</th>
-  </tr>
-</table>
-<br><br>
-<button onclick="practice()" class='hidden'>Test</button>
-<div id='answer'></div>
-<div id='correct'></div>
-<script src="Javascript/script.js"></script>
+    <table id="table">
+        <tr class='hidden'>
+            <th>Sound 1 (IPA) and example</th>
+            <th>Sound 2 (IPA) and example</th>
+        </tr>
+    </table>
+    <br><br>
+    <button onclick="test()" class='hidden'>Test</button>
+    <div id='answer'></div>
+    <div id='correct'></div>
+    <script src="Javascript/script.js"></script>
 </body>
 
 </html>
