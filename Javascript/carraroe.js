@@ -236,8 +236,11 @@ sounds = (function() {
     }
 
     return [broadPSlenderP, broadBSlenderB, broadTSlenderT, broadDSlenderD,
-        broadCSlenderC, broadGSlenderG, broadFSlenderF, broadBhSlenderBh, broadSSlenderS, broadChSlenderCh,
-        broadGhSlenderGh, broadMSlenderM, broadNSlenderN, broadNgSlenderNg, broadRSlenderR, broadLSlenderL, broadPBroadB,
-        slenderPSlenderB, broadTBroadD, slenderTSlenderD, broadCBroadG, slenderCSlenderG, broadFandW, slenderFandV, broadChBroadGh, slenderChSlenderGh
-    ]
+        broadCSlenderC, broadGSlenderG, broadFSlenderF, broadBhSlenderBh,
+        broadSSlenderS, broadChSlenderCh, broadGhSlenderGh, broadMSlenderM,
+        broadNSlenderN, broadNgSlenderNg, broadRSlenderR, broadLSlenderL,
+        broadPBroadB, slenderPSlenderB, broadTBroadD, slenderTSlenderD,
+        broadCBroadG, slenderCSlenderG, broadFandW, slenderFandV,
+        broadChBroadGh, slenderChSlenderGh
+    ];
 }());
