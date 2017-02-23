@@ -138,7 +138,7 @@ sounds = (function() {
     const broadL1SlenderL = {
         sound1: '/l̪ˠ/',
         word1: 'lón',
-        source1: 'Audio/Irish/Gweedore/lon.mp3',
+        source1: 'Audio/Irish/Gweedore/lón.mp3',
         sound2: '/l̠ʲ/',
         word2: 'leon',
         source2: 'Audio/Irish/Gweedore/leon.mp3'
@@ -155,11 +155,11 @@ sounds = (function() {
 
     const broadPBroadB = {
         sound1: '/pˠ/',
-        word1: 'pá',
-        source1: 'Audio/Irish/Gweedore/pa.mp3',
+        word1: 'páistí',
+        source1: 'Audio/Irish/Gweedore/páistí.mp3',
         sound2: '/bˠ/',
-        word2: 'bá',
-        source2: 'Audio/Irish/Gweedore/ba.mp3'
+        word2: 'báistí',
+        source2: 'Audio/Irish/Gweedore/báistí.mp3'
     }
 
     const slenderPSlenderB = {
@@ -191,11 +191,11 @@ sounds = (function() {
 
     const broadCBroadG = {
         sound1: '/k/',
-        word1: 'cá',
-        source1: 'Audio/Irish/Gweedore/cá.mp3',
+        word1: 'cad',
+        source1: 'Audio/Irish/Gweedore/cad.mp3',
         sound2: '/g/',
-        word2: 'gá',
-        source2: 'Audio/Irish/Gweedore/gá.mp3'
+        word2: 'gad',
+        source2: 'Audio/Irish/Gweedore/gad.mp3'
     }
 
     const slenderCSlenderG = {
